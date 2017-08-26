@@ -3,8 +3,6 @@
 # DESCRIPTION
 # Sets up and launches (if necessary) installed software.
 
-# Bash
-sudo bash -c "printf '/usr/local/bin/bash\n' >> /etc/shells"
+# Zsh
 
-# Bash Completion
-chsh -s /usr/local/bin/bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

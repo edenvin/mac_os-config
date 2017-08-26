@@ -74,5 +74,6 @@ brew install tree
 # Vim
 brew install vim
 
-# Z
+# ZSH
+brew install zsh
 brew install z
